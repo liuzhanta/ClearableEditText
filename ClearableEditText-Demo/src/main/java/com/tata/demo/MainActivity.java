@@ -1,9 +1,10 @@
-package com.zterry.demo;
+package com.tata.demo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.zterry.clearableedittext.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
