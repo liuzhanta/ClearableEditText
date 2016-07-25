@@ -35,6 +35,6 @@ And That's all.
 
 Developed by
 ------------
-Name: ZTerry Liu
-E-mail: tata1989y@gmail.com
-Subject: ClearableEditText 
+Name: ZTerry Liu  
+E-mail: tata1989y@gmail.com  
+Subject: ClearableEditText  
