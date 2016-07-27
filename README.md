@@ -1,6 +1,13 @@
 # ClearableEditText
 A clearable EditText which can be easy to clear your input.
 
+Getting started
+---------------
+Add the ClearableEditText dependency to your build.gradle.
+    
+    dependencies {
+       compile 'com.zterry.clearableedittext:ClearableEditText:1.0.2'
+    }
 
 Screen Shot
 -----------
