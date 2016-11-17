@@ -11,21 +11,12 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.zterry.clearableedittext.R;
 
 
 /**
- * <p>
- * 带删除按钮的输入框
- * </p>
- * <p/>
- * <p>Attention: 如果你想给你的EditText注册焦点变化的监听，你可以通过{@link #setOnFocusChangeListener(OnFocusChangeListener)} ,
- * 如果你再外部直接对EditText注册将会导致这个控件内部的删除按钮失效.</p>
- *
- * @author Terry
+ * A clearable EditText which can be easy to clear your input.
  */
 public class ClearableEditText extends LinearLayout implements View.OnClickListener {
-
 
     private EditText mEditText;
 
@@ -63,8 +54,8 @@ public class ClearableEditText extends LinearLayout implements View.OnClickListe
         mClearableImageButton.setId(ID_CLEAR_IMAGE_BUTTON);
         LayoutParams lp = new LayoutParams(72, ViewGroup.LayoutParams.MATCH_PARENT);
         mClearableImageButton.setLayoutParams(lp);
-        mClearableImageButton.setBackgroundResource(R.drawable.clear_edit_text_selector_holo_dark);
-        mClearableImageButton.setImageResource(R.drawable.ic_input_clear);
+        mClearableImageButton.setBackgroundResource(com.zterry.R.drawable.clear_edit_text_selector_holo_dark);
+        mClearableImageButton.setImageResource(com.zterry.R.drawable.ic_input_clear);
         mClearableImageButton.setOnClickListener(this);
         mClearableImageButton.setVisibility(View.GONE);
         addView(mClearableImageButton, 1);
@@ -79,7 +70,7 @@ public class ClearableEditText extends LinearLayout implements View.OnClickListe
     /**
      * Register a callback to be invoked when focus of this EditText changed in this ViewGroup.
      *
-     * @param onFocusChangeListener
+     * @param onFocusChangeListener The callback that will run
      */
     public void setOnFocusChangeListener(OnFocusChangeListener onFocusChangeListener) {
         this.onFocusChangeListener = onFocusChangeListener;

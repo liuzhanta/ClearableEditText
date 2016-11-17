@@ -1,1 +1,1 @@
-include ':ClearableEditText-Demo', ':clearableedittext'
+include ':ClearableEditText-Demo', ':ClearableEditText'
